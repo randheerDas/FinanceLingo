@@ -3,16 +3,16 @@ An Interpreted DSL that allows FinancialAnalytics.
 
 # Objective
 The primary motivation or design goal is to provide a simple and yet rich expressive lanaguage for the finance domain.
-For doing some basic analytics, it should ***not be required to write a detailed Java or C++ program***. Simply put, it acts like a scratch pad or a command line calculator.
+For doing some basic analytics, it should ***not be required to write a detailed Java or C++ program***. Simply put, it acts like a scratch pad or a command line calculator. This is still **work in progress**. Details on the work items have been **highlighted in later sections.**
 
 As of today, the DSL operates in an ***interpreted mode*** and provides very basic bond analytic constructs. 
 It is not a complete **programming langauge** as it does not allow to define functions, support for control flow or decision making constructs. 
 
 However, it does provide the following: 
-      1. basic ``variable assignments``
-      2. ``arithmetic operators``
-      3. ``In-Built functions`` that can be called
-      
+*  basic ``variable assignments``
+* ``arithmetic operators``
+* `In-Built functions` that can be called
+
 # Sample DSL Interpreter session
 ``` 
  Financial DSL interpreter version 1.0:
@@ -56,4 +56,17 @@ double price  = calcCleanPriceFromYield(bondContract,yield)
 
 print (price)
 ```
+# Usage
+  Download the Zip. Unzip it on a local drive. Change to the folder ***distribution/Linux***.
+  Execute the following script --> ***finInterpStart.sh*** to launch the interpreter.
+  
+# Planned Work Items
+* Provide a Maven based build system, that allows one to build the binaries from the Source code.
+* Add suitable test code snippets. 
+* Code optimizations and more robust error handling.
+* Windows based batch file.
 
+# Phase 2 Work Items
+* Provide support for finanical domain specfic constructs/operators and a supporting type system.
+* Provide Risk measure calculations for Bonds.
+* Provide Analytics and Risk calculations for Derivative and other asset classes.
