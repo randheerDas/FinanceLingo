@@ -2,7 +2,7 @@
 An Interpreted DSL that allows FinancialAnalytics.
 
 # Objective
-The primary motivation or design goal is to provide a simple and yet rich expressive lanaguage for the finance domain.
+The primary motivation or design goal is to provide a simple and yet rich expressive language for the finance domain.
 For doing some basic analytics, it should ***not be required to write a detailed Java or C++ program***. Simply put, it acts like a scratch pad or a command line calculator. This is still **work in progress**. Details on the work items have been **highlighted in later sections.**
 
 As of today, the DSL operates in an ***interpreted mode*** and provides very basic bond analytic constructs. 
