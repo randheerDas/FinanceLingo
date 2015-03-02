@@ -1,0 +1,45 @@
+//Specify Instrument Contract details
+curr = USD
+matDate = 20151223
+accDate = 20101222
+int tenor = 6
+double rate = .089
+int settlementDays = 3
+int notional = 100
+daycount = actual_actual_icma
+busdayconv = Following
+yieldconv = us_street
+issuer = us_govt
+instrId = createBondInstrument(curr,matDate, accDate, tenor ,rate,settlementDays,notional,daycount, busdayconv, yieldconv,issuer)
+
+printCashFlows(instrId)
+
+// A Trade  date in between coupons
+trDate = 20110223
+bondContract = createBondContract(instrId,trDate)
+print(bondContract)
+
+// Calculate AccruedInterest
+double ai =	calcAI(bondContract)
+print(ai)
+
+/ / Calculate Yield from Clean Price 
+double cleanPrice   = 2.5 
+double yield 	    = calcYieldFromCleanPrice(bondContract,cleanPrice) 
+print (yield)
+
+// Calculate dirty price
+double dirtyPrice  = cleanPrice + ai/notional
+print(dirtyPrice)
+
+// Calculate Clean Price from Yield 
+double yield  = 0.04 
+double price  = calcCleanPriceFromYield(bondContract,yield) 
+
+print (price) 
+
+// Support for Z Spread Calculations coming in next phase/release
+// Calculate Z-Spread, loads the curves based on the issuer 
+//double Zspread 	    = calcZSpreadFromCleanPrice(bondContract, cleanPrice) 
+// print (Zspread)
+

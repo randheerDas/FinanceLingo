@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/usr/local/lib/antlr-4.4-complete.jar" sourcepath="/home/sandeep/Ebooks/Antlr_Lang_design/LanguageDesignPatterns/Antlr/antlr4-4.4"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/threeten/threetenbp/0.8.1/threetenbp-0.8.1.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/log4j/log4j/1.2.12/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/fudgemsg/fudge-java/0.3.9.20/fudge-java-0.3.9.20.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/fudgemsg/fudge-proto/0.3.9.7/fudge-proto-0.3.9.7.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/joda/joda-convert/1.7/joda-convert-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/org/joda/joda-beans/1.1/joda-beans-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/com/google/guava/guava/14.0.1/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/com/opengamma/platform/og-util/2.7.0-M2/og-util-2.7.0-M2.jar" sourcepath="/home/sandeep/Maven/LocalRepo/com/opengamma/platform/og-util/2.7.0-M2/og-util-2.7.0-M2-sources.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/com/opengamma/platform/og-core/2.7.0-M2/og-core-2.7.0-M2.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/com/opengamma/platform/og-analytics/2.7.0-M2/og-analytics-2.7.0-M2.jar" sourcepath="/home/sandeep/Maven/LocalRepo/com/opengamma/platform/og-analytics/2.7.0-M2/og-analytics-2.7.0-M2-sources.jar"/>
+	<classpathentry kind="lib" path="/home/sandeep/Maven/LocalRepo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,9 @@
+curr = USD
+trDate = 20091223
+matDate = 20151223
+accDate = 20101222
+tenor = 6
+rate = .089
+settlementDays = 3
+
+Securityld = createBondInstrument(curr, trDate, matDate, accDate, tenor ,RATE,SETTLEMENT_DAYS, NOTIONAL,DAY_COUNT, BUSINESS_DAY, YIELD_CONVENTION)
