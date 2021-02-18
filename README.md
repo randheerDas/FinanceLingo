@@ -1,5 +1,5 @@
 # FinanceLingo
-An Interpreted DSL that allows FinancialAnalytics.
+An Interpreted DSL that enables FinancialAnalytics.
 
 # Objective
 The primary motivation or design goal is to provide a simple and yet rich expressive language for the finance domain.
